@@ -99,7 +99,7 @@ public class SearchController extends HttpServlet {
                 listCity = CityDAO.getAllListCity();
                 //get list house with price default
                 listType = TypeDAO.getAllListType();
-//                listHouse = HouseDAO.getListHouseWithPriceBetween(priceLower, priceHigher);
+                listHouse = HouseDAO.getListHouseWithPriceBetween(priceLower, priceHigher);
                 //            session.setAttribute("LISTWAY", null);
                 //            session.setAttribute("TYPEID", null);
                 //            session.setAttribute("IDCITY", null);
